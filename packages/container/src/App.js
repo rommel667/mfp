@@ -12,8 +12,8 @@ export default () => {
     return (
         <StylesProvider generateClassName={generatedClassName}>
             <Header />
-            <MarketingApp />
             <AuthApp />
+            <MarketingApp />
         </StylesProvider>
     )
 }

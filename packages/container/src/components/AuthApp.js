@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { mount as mountAuthApp } from 'marketing/MarketingApp'
+import { mount as mountAuthApp } from 'auth/AuthApp'
 import { useHistory } from 'react-router-dom'
 
 const AuthApp = () => {
